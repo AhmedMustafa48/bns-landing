@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
           <div>
             <FooterLogo />
-            <h1 className="">
+            <h1 className="text-light text-[16px] leading-[24px] max-w-[295px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor{" "}
             </h1>
