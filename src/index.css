@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+  --color-primary:#092D50;
+  --color-secondary: #0057FF;
+  --color-greyBlack: #262627;
+  --color-grey8: #151617;
+  --color-grey6: #4F4F4F;
+  --color-input-bg: #F3F3F3;
+  --color-light: #FFFFFF;
+  --color-dark: #000000;
+  --gray-shadow: 0px 4px 13.8px 0px #00000033;
+  --blue-shadow: 0px 0px 33.1px 0px #95CFFF61,0px 0px 6.9px 0px #95B3FF46;
+
+
+}
+.jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+body{
+  background-color: var(--color-light);
+   margin: 0;
+  padding: 0;
+}
+button{
+  cursor: pointer;
+}
+
+
