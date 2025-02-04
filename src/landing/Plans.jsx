@@ -28,10 +28,13 @@ const Plan =({type , price, list}) =>{
     return (
       <article className="rounded-[12px] shadow-[var(--blue-shadow)] max-w-[317px]">
         <section
-          className={`flex flex-col gap-2 items-center ${
+          className={`relative flex flex-col gap-2 items-center ${
             type == "Basic" ? "bg-[#00000050]" : "bg-primary"
-          } px-4  py-6 rounded-t-[12px]`}
+          } px-4  py-9 rounded-t-[12px]`}
         >
+            {type!="Basic" && <p className={`absolute left-1 top-1 z-1 text-[12px] rounded-[20px] px-3 py-1 ${type=="Standard" ? "bg-yellow-500 text-light" : " bg-[#ffffff] text-primary"}`}>
+                {type=="Standard" ? "Rcommended": "Most Popular"}
+                </p>}
           <h3
             className={`font-[500] text-lg ${
               type === "Basic" ? "text-primary" : "text-light"
