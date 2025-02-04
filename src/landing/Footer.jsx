@@ -63,7 +63,7 @@ const Footer = () => {
             <p className="font-[400] text-[16px] leading-[38.4px] jakarta text-[#B7B7B7]">
               Join our community to receive updates{" "}
             </p>
-            <div className="flex flex-wrap items-center gap-[13.65px]">
+            <div className="flex flex-wrap items-center gap-3 lg:gap-[13.65px]">
               <input
                 type="text"
                 placeholder="Enter your email"
