@@ -3,13 +3,13 @@ import ChatCard from "../components/ChatCard"
 
 const Explore = () => {
   return (
-    <article className="px-4 md:container mx-auto" >
+    <article className="px-4 md:container mx-auto">
       <section className="mt-5 lg:-mt-10 z-5 relative ">
         <ChatCard />
       </section>
-      <section className="mt-[70px] md:mt-[100px]">
-        <div>
-          <h1 className="text-primary text-[32px] md:text-[48px] font-[600] tracking-[-1px] leading-[48px] md:leading-[104px] text-center">
+      <section>
+        <div className="">
+          <h1 className="bg-[url('/src/assets/images/explore-bg.png')] bg-no-repeat bg-cover pt-[30px] md:pt-[140px] text-primary text-[32px] md:text-[48px] font-[600] tracking-[-1px] leading-[48px] md:leading-[104px] text-center">
             Explore Common Legal Questions
           </h1>
           <p className="text-primary text-[14px] md:text-[18px] font-[400] tracking-[-0.5px] leading-[27px] text-center max-w-">

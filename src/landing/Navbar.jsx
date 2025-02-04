@@ -13,10 +13,10 @@ const Navbar = () => {
      }, []);
 
      return (
-       <section className="sticky top-0 z-10 h-max max-w-full rounded-none bg-light  ">
+       <section className="sticky top-0 z-10  max-w-full rounded-none bg-light h-max lg:h-[71px]  ">
          <div className="container mx-auto p-4   flex items-center justify-between text-primary">
            <Logo />
-           <div className="flex items-center gap-4">
+           <div className="flex items-center gap-9">
              <div className="mr-4 hidden lg:block">
                <NavList />
              </div>
@@ -107,7 +107,7 @@ export default Navbar
 
 const NavList=()=>{
     return (
-      <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-[30px]">
+      <ul className="mt-2 mb-4 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-[30px]">
         <a
           href="#"
           className="text-greyBlack text-[16px] leading-[16.8px] tracking-[-0.32px] font-[400] jakarta"

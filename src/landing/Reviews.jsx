@@ -12,7 +12,7 @@ const Reviews = () => {
           What Can AiDA Do for You?
         </p>
         </section>
-        <section className="flex gap-5 justify-center flex-col lg:flex-row">
+        <section className="flex gap-5 justify-center items-center flex-col lg:flex-row">
           <Review />
           <Review />
         </section>

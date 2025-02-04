@@ -5,7 +5,7 @@ import  { PrimaryButton, SecondaryButton } from "../globalComponents/Button";
 const Hero = () => {
  
   return (
-    <article className="h-fit md:h-[85vh] bg-[url('/src/assets/images/hero-bg.png')] bg-no-repeat bg-left-top  bg-cover flex flex-col">
+    <article className="h-fit md:h-[70vh] bg-[url('/src/assets/images/hero-bg.png')] bg-no-repeat bg-left-top  bg-cover flex flex-col">
       <section className="md:container px-4 py-6 md:px-0 mx-auto flex flex-col items-center justify-center gap-6 flex-1">
         <div className="text-center space-y-5 md:space-y-10">
           <h1 className="text-xl md:text-5xl font-bold tracking-[-1px] text-light">
