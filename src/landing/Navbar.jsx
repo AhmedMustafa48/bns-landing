@@ -13,7 +13,7 @@ const Navbar = () => {
      }, []);
 
      return (
-       <section className="sticky top-0 z-10  max-w-full rounded-none bg-light h-max lg:h-[71px]  ">
+       <header className="sticky top-0 z-10  max-w-full rounded-none bg-light h-max lg:h-[71px]  ">
          <div className="container mx-auto p-4   flex items-center justify-between text-primary">
            <Logo />
            <div className="flex items-center gap-9">
@@ -75,7 +75,7 @@ const Navbar = () => {
            </div>
          </div>
          {openNav && (
-           <div open={openNav} className="container p-4 mx-auto">
+           <div open={openNav} className="container p-4 mx-auto relative z-1">
              <NavList />
              <div className=" flex items-center justify-center gap-x-8">
                <div className="lg:hidden inline-block">
@@ -97,7 +97,7 @@ const Navbar = () => {
              </div>
            </div>
          )}
-       </section>
+       </header>
      );
      
   
